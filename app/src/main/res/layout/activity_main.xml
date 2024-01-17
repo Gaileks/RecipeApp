@@ -12,6 +12,7 @@
         android:id="@+id/mainContainer"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:name="com.example.recipeapp.CategoriesListFragment"
         android:layout_marginHorizontal="@dimen/main_indent"
         android:layout_marginBottom="@dimen/half_main_indent"
         app:layout_constraintBottom_toTopOf="@+id/linearLayoutMainButtons"
@@ -38,7 +39,7 @@
             android:layout_marginEnd="4dp"
             android:layout_weight="1"
             android:backgroundTint="@color/button_category"
-            android:text="@string/category" />
+            android:text="@string/title_category" />
 
         <Button
             android:id="@+id/buttonFavorites"
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/button_favorites"
-            android:text="@string/favorites"
+            android:text="@string/title_favorites"
             app:icon="@drawable/ic_heart"
             app:iconGravity="textEnd" />
 
