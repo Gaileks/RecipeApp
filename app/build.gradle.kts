@@ -40,14 +40,12 @@ android {
 
 dependencies {
 
-    implementation("com.airbnb.android:lottie:4.2.0")
     implementation("androidx.navigation:navigation-dynamic-features-fragment:2.7.6")
     androidTestImplementation("androidx.navigation:navigation-testing:2.7.6")
     implementation("androidx.navigation:navigation-compose:2.7.6")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

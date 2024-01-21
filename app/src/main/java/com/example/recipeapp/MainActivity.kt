@@ -1,12 +1,8 @@
 package com.example.recipeapp
 
-import android.graphics.Insets.add
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import androidx.fragment.app.add
-import androidx.fragment.app.commit
 import androidx.fragment.app.add
 import androidx.fragment.app.commit
 import androidx.fragment.app.replace
@@ -22,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        buttonListener()
+        initButtonListener()
         if (savedInstanceState == null) {
             supportFragmentManager.commit {
                 setReorderingAllowed(true)
@@ -31,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun buttonListener() {
+    private fun initButtonListener() {
         binding.buttonCategory.setOnClickListener {
             supportFragmentManager.commit {
                 replace<CategoriesListFragment>(R.id.mainContainer)
