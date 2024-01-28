@@ -15,5 +15,19 @@
         <item name="android:fontFamily">@font/montserrat_alternates_semi_bold</item>
     </style>
 
+    <style name="StyleCapitalText" parent="StyleButtonTitle14">
+        <item name="android:textColor">@color/capital_text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="StyleCardCapitalText" parent="StyleCapitalText">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="StyleDescriptionText">
+        <item name="android:textColor">@color/description_text_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
 
 </resources>
