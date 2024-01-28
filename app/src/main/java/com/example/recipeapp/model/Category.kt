@@ -1,6 +1,4 @@
-package com.example.recipeapp.json_data_class
-
-import android.content.Context
+package com.example.recipeapp.model
 
 data class Category(
     val description: String,

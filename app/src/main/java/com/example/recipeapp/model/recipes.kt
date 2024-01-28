@@ -1,4 +1,4 @@
-package com.example.recipeapp.json_data_class
+package com.example.recipeapp.model
 
 object STUB {
     private val categories: List<Category> = listOf(
