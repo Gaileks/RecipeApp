@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-    implementation("androidx.cardview:cardview:1.0.0")
+
     implementation("androidx.navigation:navigation-dynamic-features-fragment:2.7.6")
     androidTestImplementation("androidx.navigation:navigation-testing:2.7.6")
     implementation("com.google.android.material:material:1.9.0")
