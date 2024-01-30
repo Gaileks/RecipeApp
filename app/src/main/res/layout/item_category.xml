@@ -28,7 +28,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/half_main_indent"
-            android:padding="@dimen/title_container_padding"
             tools:text="Десерты" />
 
         <TextView
@@ -37,7 +36,6 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/half_main_indent"
             android:layout_marginBottom="@dimen/half_main_indent"
-            android:padding="@dimen/title_container_padding"
             tools:text="Самые вкусные рецепты десертов специально для вас" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
