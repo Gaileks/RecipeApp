@@ -3,4 +3,5 @@
     <string name="app_name">RecipeApp</string>
     <string name="title_favorites">избранное</string>
     <string name="title_category">категории</string>
+    <string name="category_section_image">изображение раздела категории</string>
 </resources>
